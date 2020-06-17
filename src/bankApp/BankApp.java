@@ -13,7 +13,7 @@ public class BankApp {
 
 		
 			List<String[]> customers  = Utility.readFromAFile("customers.txt");  // take from here
-			List<Account> list = new ArrayList<>(); // main list of all accounts - add here
+			ArrayList<Account> list = new ArrayList<>(); // main list of all accounts - add here
 			
 			
 				for (String [] a: customers) {
