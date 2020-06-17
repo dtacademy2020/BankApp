@@ -21,7 +21,7 @@ public class BankApp {
 					String name = a[0];
 					String ssn = a[1];
 					String accType = a[2];
-					double dollarAmount = Double.parseDouble(a[3]);
+					double amount = Double.parseDouble(a[3]);
 					
 					if (accType.equals("Savings")) {
 						
