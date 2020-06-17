@@ -48,7 +48,7 @@ public class BankApp {
 						
 					}
 					 else {
-						 throw new Exception("Invalid account type ");
+						 throw new Exception("Invalid type ");
 						 
 					 }
 					
