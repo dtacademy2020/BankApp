@@ -23,7 +23,7 @@ public class BankApp {
 					String accType = a[2];
 					double amount = Double.parseDouble(a[3]);
 					
-					if (accType.equals("Savings")) {
+					if (accType.equals("Checking")) {
 						
 							
 							Account num1 = new Savings(name,ssn,dollarAmount);
